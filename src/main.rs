@@ -14,7 +14,7 @@ use {
         path::Path,
     },
 };
-// holds link details for !link
+// holds link details for !link.
 #[derive(Deserialize, Serialize, Debug)]
 struct PissLink {
     link: String,
